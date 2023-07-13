@@ -93,9 +93,23 @@ button, svg{
   gap: 0.25rem;
 }
 .user .state {
+  position: relative;
   font-size: 0.75rem;
   color: #9ca3af;
 }
+
+.state span {
+  background-color: #84cc16;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  margin-left: 0.25rem;
+}
+
+
 hr {
   border: 1px solid #e5e7eb;
   margin: 0.2rem 0;
