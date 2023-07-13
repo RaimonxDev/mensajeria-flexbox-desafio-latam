@@ -28,6 +28,9 @@ p {
   margin: 0;
   padding: 0;
 }
+button, svg{
+  cursor: pointer;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
