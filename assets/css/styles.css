@@ -131,6 +131,7 @@ hr {
 
 .chats .user {
   padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .chats .user-avatar{
