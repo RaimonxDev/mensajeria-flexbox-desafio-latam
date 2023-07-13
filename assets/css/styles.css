@@ -16,6 +16,19 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -33,13 +46,14 @@ body {
   flex: 0 0 var(--width-sidebar);
   min-height: 100vh;
   background-color: #FFFDFA;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid red;
+  border-right: 1px solid #e5e7eb;
 }
 
 .content {
   flex: 1 1 auto;
-  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-status {
@@ -106,5 +120,12 @@ hr {
   width: 2.5rem;
   height: 2.5rem;
 } 
+
+.info-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+}
 
 
